@@ -1,0 +1,25 @@
+->APACHE2, MARIA DB,php modules
+https://www.howtoforge.com/tutorial/install-apache-with-php-and-mysql-on-ubuntu-16-04-lamp/
+
+->PHP7,NGINX ,SOCKET
+https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
+Creating config file /etc/php/7.0/fpm/php.ini with new version
+NOTICE: Not enabling PHP 7.0 FPM by default.
+NOTICE: To enable PHP 7.0 FPM in Apache2 do:
+NOTICE: a2enmod proxy_fcgi setenvif
+NOTICE: a2enconf php7.0-fpm
+
+
+->CONNECT APACHE AND PHP THROUGH PHP-FPM
+http://blog.tiger-workshop.com/upgrade-from-php5-fpm-to-php-7-fpm-on-apache-ubuntu-14-04-by-ppa/
+
+->REINSTLLING APACHE2
+http://askubuntu.com/questions/111770/how-reinstall-apache2 
+
+->GROUP PERMISSION
+http://superuser.com/questions/268987/cant-create-any-folder-in-htdocs-on-ubuntu
+
+->INSTALLING PHPMYADMIN
+sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+sudo a2enconf phpmyadmin
+sudo service apache2 reload
