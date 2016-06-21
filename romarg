@@ -54,5 +54,11 @@ https://www.digitalocean.com/community/tutorials/how-to-configure-apache-content
 /etc/php/7.0/apache2/php.ini
 /etc/php/7.0/apache2/php.ini
 
+Email :
+sudo /etc/init.d/sendmail restart
+Install postfix:
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-16-04
+
+
 
 

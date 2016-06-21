@@ -1,0 +1,5 @@
+->UNPACK TAR.XZ FILE
+tar -xJf file.pkg.tar.xz
+
+->INSTALLED SENDEMAIL
+sudo apt-get install sendmail

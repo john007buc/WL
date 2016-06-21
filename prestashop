@@ -1,0 +1,8 @@
+->install PHP7 GDI
+sudo apt-get install php7.0-gd
+
+
+->CHANGE PERMISSIONS
+go in prestahop folder 
+sudo chown -R www-data *
+sudo chgrp -R www-data *
