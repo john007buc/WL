@@ -1,0 +1,55 @@
+->update ubuntu:
+https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts
+->verifica versiunea
+cat /etc/lsb-release
+
+1. apt-get install software-properties-common (ca sa mearga apt-add-repository)
+apt-get install python-software-properties
+
+
+->install apache2
+apt-get update
+apt-get install apache2
+->install php7
+sudo apt-get install -y language-pack-en-base
+sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
+sudo apt-get install php7.0
+sudo apt-get install php7.0-fpm
+sudo apt-get install php7.0-mysql
+
+
+Install mysql:tot from digitaloceans
+
+
+
+
+->Test php
+nano /var/www/html/info.php
+<?php
+phpinfo();
+?>
+
+
+->Prestashop
+apt-get install php7.0-gd
+apt-get install php7.0-mbstring php7.0-zip php7.0-xml
+https://www.rosehosting.com/blog/how-to-install-prestashop-on-an-ubuntu-14-04-vps/
+
+ GRANT ALL PRIVILEGES ON prorider.* TO 'prestashop'@'localhost' IDENTIFIED BY '#GeorgeProrider43211234!@#';
+http://www.websavant.info/admin1924breeb
+john007buc@yahoo.com
+12345678
+
+
+Optimizare
+apt-get install -y php-memcached
+apt-get install php7.0-memcached
+
+Enable mod-rewrite in apache2
+a2enmod rewrite (https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite-for-apache-on-ubuntu-14-04)
+
+Apache caching 
+https://www.digitalocean.com/community/tutorials/how-to-configure-apache-content-caching-on-ubuntu-14-04
+
+
+
