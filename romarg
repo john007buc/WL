@@ -51,5 +51,8 @@ a2enmod rewrite (https://www.digitalocean.com/community/tutorials/how-to-set-up-
 Apache caching 
 https://www.digitalocean.com/community/tutorials/how-to-configure-apache-content-caching-on-ubuntu-14-04
 
+/etc/php/7.0/apache2/php.ini
+/etc/php/7.0/apache2/php.ini
+
 
 
